@@ -1,0 +1,84 @@
+#header {
+    width: 429px;
+    height: 114px;
+    background-color: #54BDE8;
+    margin: -9px;
+}
+
+#LogoImg {
+    float: left;
+    width: 114px;
+    height: 114px;
+}
+
+#LogoImg img {
+    width: 100px;
+    height: 100px;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+#header #LogoName {
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#bodyFrame {
+    width: 378px;
+    height: 727px;
+    /* background-color: bisque; */
+    background-image:url(backgroundimg.jpg) ;
+    margin-top: 50px;
+    margin-left: 17px;
+    border-radius: 30px;
+}
+
+#BackPoint {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 10px;
+
+}
+
+
+
+/* <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+
+    <meta name="viewport"
+        content="width=device-width,user-scalable=no,initial-scale=1.0,maxmum-scale=1.0,minmum-scale=1.0">
+
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="主框架.css">
+    <script type="text/javascript">
+
+    </script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div id="LogoImg">
+            <img src="imgs/payment failed.png">
+        </div>
+        <div id="LogoName">LogoName</div>
+    </div>
+    <div id="bodyFrame">
+        <a href="">
+            <img src="imgs/返回.png" id="BackPoint">
+        </a>
+    </div>
+</body>
+
+</html> */

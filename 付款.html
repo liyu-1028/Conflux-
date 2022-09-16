@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>扫码成功</title>
+    <link rel="stylesheet" href="主框架.css">
+    <script type="text/javascript"></script>
+    <style>
+        #bodyFrame #scan_success {
+            position: relative;
+            top: 30px;
+            left: 100px;
+            width: 170px;
+            height: 50px;
+            color: rgb(58, 58, 58);
+            background-color: #20bffd;
+            border-color: #20bffd;
+            border-radius: 5px; 
+            text-align: center;
+            font-size: 120%;
+            line-height: 10px;
+        }
+        #bodyFrame #to {
+            position: relative;
+            top: 50px;
+            left: 30px;
+            font-size: large;
+        }
+        #bodyFrame #address_input{
+            position: relative;
+            top: 50px;
+            left: 65px;
+            width: 250px;
+            height: 40px;
+            line-height: 28px;
+            border: 2px  ;
+            
+            outline: none;
+            color: rgb(0, 0, 0);
+            font-size: large;
+        }
+        #bodyFrame span{
+            position: relative;
+            top: 50px;
+        }
+        #bodyFrame span #coin_type {
+            position: relative;
+            top: 15px;
+            left: 65px;
+            width: 100px;
+            height: 40px;
+            line-height: 28px;
+            border: 2px  ; 
+            outline: none;
+            color: rgb(0, 0, 0);
+            font-size: large;
+        }
+        #bodyFrame span #number {
+            position: relative;
+            top: 15px;
+            left: 65px;
+            width: 146px;
+            height: 40px;
+            line-height: 28px;
+            border: 2px  ; 
+            outline: none;
+            color: rgb(0, 0, 0);
+            font-size: large;
+        }
+        #bodyFrame #fee {
+            position: relative;
+            top: 85px;
+            left: 30px;
+            font-size: large;
+        }
+        #bodyFrame #coin1 {
+            position: relative;
+            top: 100px;
+            left: 65px;
+            background-color: #ffffff;
+            width: 250px;
+            height: 40px;
+            border: none;
+            /* border-radius: 0px;
+            border-style: solid;
+            border-color: rgb(209, 209, 209); */
+        }
+        #bodyFrame #coin2 {
+            position: relative;
+            top: 135px;
+            left: 65px;
+            background-color: #ffffff;
+            width: 250px;
+            height: 40px;
+            border: none;
+            /* border-radius: 0px;
+            border-style: solid;
+            border-color: rgb(209, 209, 209); */
+        }
+        #bodyFrame #send {
+            position: relative;
+            top: 270px;
+            left: 250px;
+            width: 80px;
+            height: 35px;
+            color: rgb(58, 58, 58);
+            background-color: #ffffff;
+            border-color: #ffffff;
+            border-radius: 5px; 
+            text-align: center;
+            font-size: 120%;
+            line-height: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div id="LogoImg">
+            <img src="./payment failed.png">
+        </div>
+        <div id="LogoName">LogoName</div>
+    </div>
+
+    <div id="bodyFrame">
+        <button id="scan_success" onclick="">扫码成功</button>
+        <p id="to">To</p>
+        <input type="text" id="address_input" value="Address：" >
+        <br><br>
+        <span>
+            <select name="coin_type" id="coin_type">
+                <option value="type1">type1</option>
+                <option value="type2">type2</option>
+                <option value="type3">type3</option>
+            </select>
+            <input type="text" id="number" value="number:">
+        </span>
+        <p id="fee">Fee</p>
+        <div id="coin1"></div>
+        <div id="coin2"></div>
+        <button id="send" onclick="">SEND</button>
+
+    </div>
+
+    
+</body>
+</html>

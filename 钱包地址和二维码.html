@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>钱包地址和二维码</title>
+    <link rel="stylesheet" href="主框架.css">
+    <script type="text/javascript"></script>
+    <style>
+        #bodyFrame #body {
+            position: relative;
+            top: 500px;
+            left: 0px;
+            background-color: bisque;
+            width: 378px;
+            height: 300px;
+            border-radius: 5px;
+
+        }
+        #bodyFrame #receive{
+            position: relative;
+            font-size: large;
+            top: 10px;
+            text-emphasis: 1;
+            text-align: center;
+            color: #000;
+        }
+        #bodyFrame #body img {
+            position: relative;
+            
+            top: 15px;
+            left: 110px;
+            background-color: #E4F9FF;
+            width: 150px;
+            height: 150px;
+            border-radius: 5px;
+            border-style: solid;
+            border-color: rgb(209, 209, 209);
+        }
+        #bodyFrame #body #address {
+            position: relative;
+            text-decoration: underline;
+            text-align: center;
+            top: 25px;
+        }
+        #bodyFrame #body #copy_address {
+            position: relative;
+            top: 40px;
+            left: 0px;
+            width: 378px;
+            height: 40px;
+            color: rgb(58, 58, 58);
+            background-color: #4dccff;
+            border-color: #4dccff;
+            border-radius: 5px; 
+            text-align: center;
+            font-size: large;
+            line-height: 10px;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    <div id="header">
+        <div id="LogoImg">
+            <img src="./payment failed.png">
+        </div>
+        <div id="LogoName">LogoName</div>
+    </div>
+    <div id="bodyFrame">
+        <div id="body">
+            <p id="receive">Receive</p>
+            
+            <img src="./payment failed.png" alt="二维码">
+            <div id="address">address</div>
+            <button id="copy_address">copy_address</button>
+        </div>
+    </div>
+    
+</body>
+</html>

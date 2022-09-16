@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关注</title>
+    <link rel="stylesheet" href="关注.css">
+    <style>
+        #bodyFrame #body {
+            position: relative;
+            top: 20px;
+            left: 0px;
+            /* background-color: bisque; */
+            width: 378px;
+            height: 300px;
+            border-radius: 5px;
+        }
+        #bodyFrame #body #menu {
+            position: relative;
+            top: 30px;
+            left: 50px;
+            background-color: rgb(255, 255, 255);
+            width: 275px;
+            height:40px;
+            border-radius: 5px;
+        }
+        #bodyFrame #body #menu #search {
+            position: relative;
+            top: 5px;
+            left: 25px;
+            width: 105px;
+            height: 30px;
+            color: rgb(53, 53, 53);
+            background-color: #4dccff;
+            border-color: #4dccff;
+            border-radius: 5px; 
+            text-align: center;
+            line-height: 10px;
+        }
+        #bodyFrame #body #menu #recent {
+            position: relative;
+            top: 5px;
+            left: 35px;
+            width: 105px;
+            height: 30px;
+            color: rgb(53, 53, 53);
+            background-color: #4dccff;
+            border-color: #4dccff;
+            border-radius: 5px; 
+            text-align: center;
+            line-height: 10px;
+        }
+        #bodyFrame #body p {
+            position: relative;
+            top: 30px;
+            left: 26px;
+            font-size: 110%;
+        }
+        #bodyFrame #body #result1 {
+            position: relative;
+            top: 30px;
+            left: 50px;
+            background-color: rgb(255, 255, 255);
+            width: 275px;
+            height:40px;
+            border-radius: 5px;
+        }
+        #bodyFrame #body #result1 img {
+            float: left;
+            left: 4px;
+            width: 37px;
+            height: 37px;
+        }
+        #bodyFrame #body #result1 #true {
+            position: relative;
+            top: 2px;
+            left: 150px;
+            width: 40px;
+            height: 37px;
+            color: rgb(0, 0, 0);
+            background-color: #f0f0f0;
+            border-color: #f0f0f0;
+            border-radius: 5px; 
+            text-align: center;
+            line-height: 10px;
+        }
+        #bodyFrame #body #result1 #false {
+            position: relative;
+            top: 2px;
+            left: 150px;
+            width: 40px;
+            height: 37px;
+            color: rgb(0, 0, 0);
+            background-color: #f0f0f0;
+            border-color: #f0f0f0;
+            border-radius: 5px; 
+            text-align: center;
+            line-height: 10px;
+        }
+        #bodyFrame #body #result2 {
+            position: relative;
+            top: 40px;
+            left: 50px;
+            background-color: rgb(255, 255, 255);
+            width: 275px;
+            height:40px;
+            border-radius: 5px;
+        }
+        #bodyFrame #body #result2 img {
+            float: left;
+            left: 4px;
+            width: 37px;
+            height: 37px;
+        }
+        #bodyFrame #body #result2 #true {
+            position: relative;
+            top: 2px;
+            left: 150px;
+            width: 40px;
+            height: 37px;
+            color: rgb(0, 0, 0);
+            background-color: #f0f0f0;
+            border-color: #f0f0f0;
+            border-radius: 5px; 
+            text-align: center;
+            line-height: 10px;
+        }
+        #bodyFrame #body #result2 #false {
+            position: relative;
+            top: 2px;
+            left: 150px;
+            width: 40px;
+            height: 37px;
+            color: rgb(0, 0, 0);
+            background-color: #f0f0f0;
+            border-color: #f0f0f0;
+            border-radius: 5px; 
+            text-align: center;
+            line-height: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="LogoImg">
+            <img src="payment failed.png">
+        </div>
+        <div id="LogoName">LogoName</div>
+    </div>
+    <div id="bodyFrame">
+        <div id="body">
+            <div id="menu">
+                <button id="search">邮箱搜索</button>
+                <button id="recent">最近交易</button>
+            </div>
+            <p>搜索结果/最近交易</p>
+            <div id="result1">
+                <img src="payment failed.png" alt="result1">
+                <button id="true">√</button>
+                <button id="false">×</button>
+            </div>
+            <div id="result2">
+                <img src="payment failed.png" alt="result2">
+                <button id="true">√</button>
+                <button id="false">×</button>
+            </div>
+            <div id="result3"></div>
+        </div>
+
+    </div>
+</body>
+</html>
